@@ -1,42 +1,62 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
-h1{
-	color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(https://fonts.googleapis.com/css?family=Voces);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+ul {
+	list-style-type: none;
+	display: inline;
 }
-#name{
-	color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
+nav {
+	background-color: rgb(110, 180, 210);
 }
-#pic{
-	padding-top: 25px;
+.name {
+	font-family: 'PT Sans';
+	font-size: 60px;
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	font-weight: 700;
 }
-p{
-	color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	font-size: 16px;
+.name:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
 }
-h2{
-	color: red;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
+.navbar {
+	font-family: 'PT Sans';
+	font-weight: 700;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: middle;
+}
+.navbar:hover {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+.container { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
 }
 .aboutme{
 	color: black;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Voces';
 	text-align: justify;
-	margin-top: 20px;
+	padding: 10px;
 	font-size: 16px;
 }
-#nav{
-	text-align: center;
-}
 .navlink{
+	text-align: center;
 	display: inline-block;
 	color: black;
-	font-family: 'Josefin Sans', sans-serif;
-	padding: 15px;
-	margin-top: 20px;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: rgb(0, 0, 0);
+}
+.navlink:hover {
+	color: rgb(110, 180, 210);
 }
