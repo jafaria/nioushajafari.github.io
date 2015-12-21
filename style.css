@@ -7,8 +7,9 @@ ul {
 	display: inline;
 }
 nav {
-	background-color: rgb(110, 180, 210);
-}
+	background-color: linear-gradient(to right, red , yellow);
+
+
 .name {
 	font-family: 'PT Sans';
 	font-size: 60px;
