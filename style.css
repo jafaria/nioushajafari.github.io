@@ -29,7 +29,7 @@ nav {
 	font-weight: 700;
 }
 .name:hover {
-	color: rgb(226, 226, 226);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 .navbar {
@@ -43,7 +43,7 @@ nav {
 	vertical-align: middle;
 }
 .navbar:hover {
-	color: rgb(226, 226, 226);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 .container { 
