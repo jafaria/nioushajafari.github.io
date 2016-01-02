@@ -57,7 +57,8 @@ nav {
 	margin-bottom: 0px;
 }
 .project-pic {
-	
+	float: left;
+	margin: 20px;
 }
 .title {
 	color: black;
