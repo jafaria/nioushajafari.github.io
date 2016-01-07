@@ -65,17 +65,16 @@ nav {
 	margin-top: 100px;
 }
 .project-pic {
-	margin-left: 100px;
-	align-content: inherit;
-	margin-bottom: 50px;
-    margin-right: 50px;
-	float: left;
+	text-align: center;
+	margin-left: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 .project-text {
-	margin-left: 50px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	margin-right: 100px;
-	align-items: inherit;
-
 }
 .title {
 	color: black;
