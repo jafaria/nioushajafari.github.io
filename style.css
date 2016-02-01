@@ -89,7 +89,7 @@ nav {
 .info {
 	color: black;
 	font-family: 'Voces';
-	font-size: 20px;
+	font-size: 15px;
 	text-align: right;
 }
 .info:hover {
@@ -101,4 +101,11 @@ nav {
 	font-family: 'Voces';
 	font-size: 16px;
 	text-align: right;
+}
+
+.entry {
+	color: black;
+	font-family: 'Voces';
+	font-size: 16px;
+	text-align: center;
 }
