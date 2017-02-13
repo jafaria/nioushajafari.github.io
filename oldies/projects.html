@@ -9,6 +9,7 @@
         <title>Niousha Jafari</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i" rel="stylesheet">
     </head>
     <nav class="navbar navbar-fixed-top">
         <div class="container-fluid">
@@ -19,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button> 
+                </button>
                 <a class="navbar-brand" href="https://nioushajafari.github.io" >Niousha Jafari</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -34,24 +35,24 @@
         </div><!-- /.container-fluid -->
     </nav>
     <body>
-    <!-- The class creates a margin and sets the following text/pictures at the center-->
+    <div class="page-container">
+
+        <!-- Twitter bot project-->
         <div class="project-container">
-            <!-- Twitter bot project-->
-            <div class="row">
+            <div class="row" id="bot">
                 <div class="col-md-6">
                     <div class="project-pic">
-                        <img src="resources/final.jpg" width="400">
+                        <img src="../resources/final.jpg" width="400">
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="project-text">
-                        <div class="title">
-                            Iran News Bot
+                        <div class="project-title">
+                            <a href="https://github.com/nioushajafari/iranNewsBot" id="bot-title">Iran news bot</a>
                         </div>
-                        <div class="info">
-                            <a class="info" target="_blank" href="https://github.com/nioushajafari/iranNewsBot">Source code</a>
-                        </div>
-                        <div class="entry">
+
+                        <div class="project-description">
                             <p>After Iran was the topic of every news headline, I wanted to see the different angles
                                 each news source paid attention to in the same story. The bot reteweets "Iran" related
                                 news to show the difference in 140 characters or less. <br>
@@ -61,26 +62,32 @@
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!--Amazon Echo project -->
-            <div class="row">
+
+        <!--Amazon Echo project -->
+        <div class="project-container">
+            <div class="row" id="echo">
                 <div class="col-md-6">
                     <div class="project-pic">
-                        <img src="resources/echo.jpg" width="300">
+                        <img src="../resources/echo.jpg" width="300">
                     </div>
                 </div>
+
                 <div class="col-md-6">
                     <div class="project-text">
-                        <div class="title">
+                        <div class="project-title">
                             Amazon Echo
                         </div>
-                        <div class="entry">
+
+                        <div class="project-description">
                             <p>Working with Alexa has been so much fun. I've been working on new 'skills' for her to help me workout, remind me my family's birthdays, and greet people when I introduce them to her. I had never worked with node.js prior to developing Alexa, so it has been a learning experience.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <div class="navlink-section">
             <a class="navlink" target="_blank" href="https://github.com/nioushajafari"><i class="fa fa-github-square fa-3x"></i></a>
             <a class="navlink" target="_blank" href="https://www.linkedin.com/pub/niousha-jafari/35/5/2b0"><i class="fa fa-linkedin-square fa-3x"></i></a>
@@ -89,5 +96,6 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   </body>
     </body>
 </html>
