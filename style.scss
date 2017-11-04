@@ -1,3 +1,56 @@
 body {
-  color: red;
+
+  // General styling
+  color: black;
+  margin: 0;
+
+  // Navigation bar
+
+  // Header image
+  @media (min-width: 992px) {
+    header.top-photo {
+      height: 100vh;
+      min-height: 650px;
+    }
+
+  }
+  header.top-photo {
+    background-size: cover;
+    background-image: url("resources/headerImage.jpg");
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+  }
+
+
+  // About me
+  .about-me {
+    display: flex;
+    margin: 20px;
+    text-align: center;
+
+    .photo {
+      height: 800px;
+      border-radius: 20px;
+    }
+    .container {
+      text-align: center;
+      padding-top: 20%;
+      padding-left: 150px;
+      .header {
+        font-size: x-large;
+      }
+      .info {
+        text-align: left;
+        padding-top: 5%;
+        li {
+          display: block;
+        }
+      }
+    }
+  }
+
+  // Projects
+
+
 }

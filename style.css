@@ -1,4 +1,33 @@
 body {
-  color: red; }
+  color: black;
+  margin: 0; }
+  @media (min-width: 992px) {
+    body header.top-photo {
+      height: 100vh;
+      min-height: 650px; } }
+  body header.top-photo {
+    background-size: cover;
+    background-image: url("resources/headerImage.jpg");
+    background-position: center center;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px); }
+  body .about-me {
+    display: flex;
+    margin: 20px;
+    text-align: center; }
+    body .about-me .photo {
+      height: 800px;
+      border-radius: 20px; }
+    body .about-me .container {
+      text-align: center;
+      padding-top: 20%;
+      padding-left: 150px; }
+      body .about-me .container .header {
+        font-size: x-large; }
+      body .about-me .container .info {
+        text-align: left;
+        padding-top: 5%; }
+        body .about-me .container .info li {
+          display: block; }
 
 /*# sourceMappingURL=style.css.map */
