@@ -1,22 +1,22 @@
 body {
   color: black;
   margin: 0; }
-  @media (min-width: 992px) {
-    body header.top-photo {
-      height: 100vh;
-      min-height: 650px; } }
   body header.top-photo {
     background-size: cover;
-    background-image: url("resources/headerImage.jpg");
-    background-position: center center;
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px); }
+    background-image: url("../resources/headerImage.jpg");
+    background-position: center center; }
+  @media (min-width: 992px) {
+    body header.top-photo {
+      height: 100vh; } }
+  @media (max-width: 991px) {
+    body header.top-photo {
+      padding-top: 10rem; } }
   body .about-me {
     display: flex;
     margin: 20px;
     text-align: center; }
     body .about-me .photo {
-      height: 800px;
+      height: 100vh;
       border-radius: 20px; }
     body .about-me .container {
       text-align: center;
