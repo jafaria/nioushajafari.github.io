@@ -3,6 +3,12 @@ body {
   // General styling
   color: black;
   margin: 0;
+  //Fonts
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 21px;
+  font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+
 
   // Navigation bar
 
@@ -34,11 +40,31 @@ body {
     .photo {
       height: 100vh;
       border-radius: 20px;
+      background-size: cover;
+      background-position: center center;
+      background-image: url("../resources/headerImage.jpg");
     }
+
+    @media (min-width: 992px) {
+      .photo {
+        height: 90vh;
+      }
+
+    }
+    @media (max-width: 991px) {
+      .photo {
+        height:50vh;
+     //   padding-top: 10rem;
+      }
+    }
+
     .container {
       text-align: center;
-      padding-top: 20%;
-      padding-left: 150px;
+      padding-top: 20px;
+      padding-left: 100px;
+      -webkit-font-smoothing: antialiased;
+      font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
+
       .header {
         font-size: x-large;
       }
@@ -53,6 +79,7 @@ body {
   }
 
   // Projects
-
+  .projects {
+  }
 
 }
